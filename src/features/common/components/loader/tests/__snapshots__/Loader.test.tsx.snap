@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1bglfwa-MuiPaper-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    />
+    <span
+      class="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-indeterminate css-eglki6-MuiLinearProgress-root"
+      role="progressbar"
+    >
+      <span
+        class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-5ir5xx-MuiLinearProgress-bar1"
+      />
+      <span
+        class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-1r8wrcl-MuiLinearProgress-bar2"
+      />
+    </span>
+    <div
+      class="MuiBox-root css-192x9o5"
+    >
+      <a
+        href="/"
+        id="logo-link"
+        style="text-decoration: none;"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-10bvdjj-MuiTypography-root"
+          id="logo"
+          style="color: rgba(0, 0, 0, 0.87);"
+        >
+          my
+          <span
+            style="color: rgb(25, 118, 210);"
+          >
+            Movies
+          </span>
+        </p>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

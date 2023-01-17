@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActorItem renders correctly 1`] = `
+<DocumentFragment>
+  <a
+    class="actor-item"
+    href="/actors/1627350855"
+  >
+    <div
+      class="MuiBox-root css-itb0du"
+    >
+      <div
+        class="media-back-drop MuiBox-root css-2e5d9x"
+      />
+      <button
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium media-play-btn css-3i9v1t-MuiButtonBase-root-MuiIconButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+          data-testid="PersonSearchIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            cx="10"
+            cy="8"
+            r="4"
+          />
+          <path
+            d="M10.35 14.01C7.62 13.91 2 15.27 2 18v2h9.54c-2.47-2.76-1.23-5.89-1.19-5.99zm9.08 4.01c.36-.59.57-1.28.57-2.02 0-2.21-1.79-4-4-4s-4 1.79-4 4 1.79 4 4 4c.74 0 1.43-.22 2.02-.57L20.59 22 22 20.59l-2.57-2.57zM16 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="media-info MuiBox-root css-5bs0yh"
+      >
+        <div
+          class="css-1okj3ks-MuiStack-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-qcvrn6-MuiTypography-root"
+          >
+            name
+          </p>
+        </div>
+      </div>
+    </div>
+  </a>
+</DocumentFragment>
+`;

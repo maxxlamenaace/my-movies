@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders correctly 1`] = `
+<DocumentFragment>
+  <a
+    href="/"
+    id="logo-link"
+    style="text-decoration: none;"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-10bvdjj-MuiTypography-root"
+      id="logo"
+      style="color: rgba(0, 0, 0, 0.87);"
+    >
+      my
+      <span
+        style="color: rgb(25, 118, 210);"
+      >
+        Movies
+      </span>
+    </p>
+  </a>
+</DocumentFragment>
+`;

@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1kdyup9-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1dq00yu-MuiToolbar-root"
+    >
+      <div
+        class="css-1q36rmd-MuiStack-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-1ql18s7-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="MenuIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <div
+          class="MuiBox-root css-gh7ct8"
+        >
+          <a
+            href="/"
+            id="logo-link"
+            style="text-decoration: none;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-10bvdjj-MuiTypography-root"
+              id="logo"
+              style="color: rgba(0, 0, 0, 0.87);"
+            >
+              my
+              <span
+                style="color: rgb(25, 118, 210);"
+              >
+                Movies
+              </span>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-bnwevt"
+      >
+        <div
+          class="MuiBox-root css-14lkp70"
+        >
+          <a
+            href="/"
+            id="logo-link"
+            style="text-decoration: none;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-10bvdjj-MuiTypography-root"
+              id="logo"
+              style="color: rgba(0, 0, 0, 0.87);"
+            >
+              my
+              <span
+                style="color: rgb(25, 118, 210);"
+              >
+                Movies
+              </span>
+            </p>
+          </a>
+        </div>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1ieg2c8-MuiButtonBase-root-MuiButton-root"
+          href="/"
+          id="top-bar-menu-button"
+          tabindex="0"
+        >
+          home
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ojdpqd-MuiButtonBase-root-MuiButton-root"
+          href="/medias/movie"
+          id="top-bar-menu-button"
+          tabindex="0"
+        >
+          movies
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ojdpqd-MuiButtonBase-root-MuiButton-root"
+          href="/medias/tv"
+          id="top-bar-menu-button"
+          tabindex="0"
+        >
+          series
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ojdpqd-MuiButtonBase-root-MuiButton-root"
+          href="/search"
+          id="top-bar-menu-button"
+          tabindex="0"
+        >
+          search
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1ojdpqd-MuiButtonBase-root-MuiButton-root"
+          href="/favorites"
+          id="top-bar-menu-button"
+          tabindex="0"
+        >
+          favorites
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1f28dxi-MuiButtonBase-root-MuiIconButton-root"
+          id="top-bar-switch-theme"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DarkModeOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9.37 5.51c-.18.64-.27 1.31-.27 1.99 0 4.08 3.32 7.4 7.4 7.4.68 0 1.35-.09 1.99-.27C17.45 17.19 14.93 19 12 19c-3.86 0-7-3.14-7-7 0-2.93 1.81-5.45 4.37-6.49zM12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

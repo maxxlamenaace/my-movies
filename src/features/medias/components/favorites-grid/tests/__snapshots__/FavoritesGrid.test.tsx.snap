@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoritesGrid renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 favorite-grid css-1rmx1e5-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 favorite-grid-item css-1vm8tgf-MuiGrid-root"
+    >
+      <div
+        class="css-zgbp5c-MuiStack-root"
+      >
+        <a
+          class="favorite-item"
+          href="/medias/movie/1485624457"
+        >
+          <div
+            class="MuiBox-root css-10py5dl"
+          >
+            <div
+              class="media-back-drop MuiBox-root css-2e5d9x"
+            />
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium media-play-btn css-3i9v1t-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+                data-testid="PlayArrowIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 5v14l11-7z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="media-info MuiBox-root css-5bs0yh"
+            >
+              <div
+                class="css-1okj3ks-MuiStack-root"
+              >
+                <div
+                  class="MuiBox-root css-d2o2iw"
+                >
+                  <span
+                    aria-valuenow="90"
+                    class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorSuccess css-zc2y38-MuiCircularProgress-root"
+                    role="progressbar"
+                    style="width: 50px; height: 50px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20.2"
+                        stroke-width="3.6"
+                        style="stroke-dasharray: 126.920; stroke-dashoffset: 12.692px;"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="MuiBox-root css-15i2x3e"
+                  >
+                    <div
+                      class="MuiTypography-root MuiTypography-caption css-1dtdxxd-MuiTypography-root"
+                    >
+                      9
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-qcvrn6-MuiTypography-root"
+                >
+                  title
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1fu7jd5-MuiButtonBase-root-MuiButton-root"
+          id="favorite-item-delete-button"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="DeleteIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-button css-x0xkop-MuiTypography-root"
+          >
+            Delete
+          </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

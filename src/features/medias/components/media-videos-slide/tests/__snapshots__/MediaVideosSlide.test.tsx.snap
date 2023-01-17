@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaVideosSlide renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-10mh0q4"
+  >
+    <div
+      class="swiper swiper-initialized swiper-horizontal swiper-pointer-events"
+      id="paginator-swiper"
+      style="width: 100%;"
+    >
+      <div
+        class="swiper-wrapper"
+        style="cursor: grab; transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide"
+        >
+          <div
+            class="MuiBox-root css-14x27ji"
+            id="media-video-item"
+          >
+            <iframe
+              height="0px"
+              src="https://www.youtube.com/embed/key?controls=0"
+              style="border: 0px;"
+              title="266331283"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="swiper-button-prev"
+      />
+      <div
+        class="swiper-button-next"
+      />
+      <div
+        class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

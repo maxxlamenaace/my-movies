@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediasListPage renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-124i1uv"
+  >
+    <div
+      class="swiper swiper-initialized swiper-horizontal swiper-pointer-events media-auto-swiper"
+      role="swiper"
+      style="width: 100%;"
+    >
+      <div
+        class="swiper-wrapper"
+        style="cursor: grab; transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-duplicate"
+          data-swiper-slide-index="0"
+        >
+          <div
+            class="MuiBox-root css-1td14js"
+          />
+          <div
+            class="MuiBox-root css-s9z9b"
+          />
+          <div
+            class="MuiBox-root css-1e2m3rn"
+          >
+            <div
+              class="MuiBox-root css-9jhkvv"
+            >
+              <div
+                class="css-678bp8-MuiStack-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-mrmr51-MuiTypography-root"
+                >
+                  title
+                </h4>
+                <div
+                  class="css-1q36rmd-MuiStack-root"
+                >
+                  <div
+                    class="MuiBox-root css-d2o2iw"
+                  >
+                    <span
+                      aria-valuenow="90"
+                      class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorSuccess css-zc2y38-MuiCircularProgress-root"
+                      role="progressbar"
+                      style="width: 50px; height: 50px; transform: rotate(-90deg);"
+                    >
+                      <svg
+                        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                        viewBox="22 22 44 44"
+                      >
+                        <circle
+                          class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                          cx="44"
+                          cy="44"
+                          fill="none"
+                          r="20.2"
+                          stroke-width="3.6"
+                          style="stroke-dasharray: 126.920; stroke-dashoffset: 12.692px;"
+                        />
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-15i2x3e"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-caption css-1dtdxxd-MuiTypography-root"
+                      >
+                        9
+                      </div>
+                    </div>
+                  </div>
+                  <hr
+                    class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-ftc7wc-MuiDivider-root"
+                  />
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-14ndvjh-MuiTypography-root"
+                >
+                  overview
+                </p>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
+                  href="/medias/undefined/1811409637"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeLarge css-htszrh-MuiButton-startIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="PlayArrowIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 5v14l11-7z"
+                      />
+                    </svg>
+                  </span>
+                  Watch now
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide"
+          data-swiper-slide-index="0"
+        >
+          <div
+            class="MuiBox-root css-1td14js"
+          />
+          <div
+            class="MuiBox-root css-s9z9b"
+          />
+          <div
+            class="MuiBox-root css-1e2m3rn"
+          >
+            <div
+              class="MuiBox-root css-9jhkvv"
+            >
+              <div
+                class="css-678bp8-MuiStack-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-mrmr51-MuiTypography-root"
+                >
+                  title
+                </h4>
+                <div
+                  class="css-1q36rmd-MuiStack-root"
+                >
+                  <div
+                    class="MuiBox-root css-d2o2iw"
+                  >
+                    <span
+                      aria-valuenow="90"
+                      class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorSuccess css-zc2y38-MuiCircularProgress-root"
+                      role="progressbar"
+                      style="width: 50px; height: 50px; transform: rotate(-90deg);"
+                    >
+                      <svg
+                        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                        viewBox="22 22 44 44"
+                      >
+                        <circle
+                          class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                          cx="44"
+                          cy="44"
+                          fill="none"
+                          r="20.2"
+                          stroke-width="3.6"
+                          style="stroke-dasharray: 126.920; stroke-dashoffset: 12.692px;"
+                        />
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-15i2x3e"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-caption css-1dtdxxd-MuiTypography-root"
+                      >
+                        9
+                      </div>
+                    </div>
+                  </div>
+                  <hr
+                    class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-ftc7wc-MuiDivider-root"
+                  />
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-14ndvjh-MuiTypography-root"
+                >
+                  overview
+                </p>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
+                  href="/medias/undefined/1811409637"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeLarge css-htszrh-MuiButton-startIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="PlayArrowIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 5v14l11-7z"
+                      />
+                    </svg>
+                  </span>
+                  Watch now
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide-duplicate"
+          data-swiper-slide-index="0"
+        >
+          <div
+            class="MuiBox-root css-1td14js"
+          />
+          <div
+            class="MuiBox-root css-s9z9b"
+          />
+          <div
+            class="MuiBox-root css-1e2m3rn"
+          >
+            <div
+              class="MuiBox-root css-9jhkvv"
+            >
+              <div
+                class="css-678bp8-MuiStack-root"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-mrmr51-MuiTypography-root"
+                >
+                  title
+                </h4>
+                <div
+                  class="css-1q36rmd-MuiStack-root"
+                >
+                  <div
+                    class="MuiBox-root css-d2o2iw"
+                  >
+                    <span
+                      aria-valuenow="90"
+                      class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorSuccess css-zc2y38-MuiCircularProgress-root"
+                      role="progressbar"
+                      style="width: 50px; height: 50px; transform: rotate(-90deg);"
+                    >
+                      <svg
+                        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                        viewBox="22 22 44 44"
+                      >
+                        <circle
+                          class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                          cx="44"
+                          cy="44"
+                          fill="none"
+                          r="20.2"
+                          stroke-width="3.6"
+                          style="stroke-dasharray: 126.920; stroke-dashoffset: 12.692px;"
+                        />
+                      </svg>
+                    </span>
+                    <div
+                      class="MuiBox-root css-15i2x3e"
+                    >
+                      <div
+                        class="MuiTypography-root MuiTypography-caption css-1dtdxxd-MuiTypography-root"
+                      >
+                        9
+                      </div>
+                    </div>
+                  </div>
+                  <hr
+                    class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-ftc7wc-MuiDivider-root"
+                  />
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-14ndvjh-MuiTypography-root"
+                >
+                  overview
+                </p>
+                <a
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
+                  href="/medias/undefined/1811409637"
+                  tabindex="0"
+                >
+                  <span
+                    class="MuiButton-startIcon MuiButton-iconSizeLarge css-htszrh-MuiButton-startIcon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="PlayArrowIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M8 5v14l11-7z"
+                      />
+                    </svg>
+                  </span>
+                  Watch now
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root css-f1zhho"
+  >
+    <div
+      class="css-h5fqwi-MuiStack-root"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5 css-bezmlo-MuiTypography-root"
+      >
+        Series
+      </h5>
+      <div
+        class="css-e53awj-MuiStack-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-e1vnyx-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          top_rated
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeLarge MuiButton-textSizeLarge css-n4k5n-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          popular
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 medias-grid css-1drqt17-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 media-grid-item css-1vm8tgf-MuiGrid-root"
+      >
+        <a
+          href="/medias/undefined/1811409637"
+          id="media-item"
+        >
+          <div
+            class="MuiBox-root css-10py5dl"
+          >
+            <div
+              class="media-back-drop MuiBox-root css-2e5d9x"
+            />
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium media-play-btn css-3i9v1t-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+                data-testid="PlayArrowIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 5v14l11-7z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="media-info MuiBox-root css-5bs0yh"
+            >
+              <div
+                class="css-1okj3ks-MuiStack-root"
+              >
+                <div
+                  class="MuiBox-root css-d2o2iw"
+                >
+                  <span
+                    aria-valuenow="90"
+                    class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorSuccess css-zc2y38-MuiCircularProgress-root"
+                    role="progressbar"
+                    style="width: 50px; height: 50px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-oxts8u-MuiCircularProgress-circle"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20.2"
+                        stroke-width="3.6"
+                        style="stroke-dasharray: 126.920; stroke-dashoffset: 12.692px;"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="MuiBox-root css-15i2x3e"
+                  >
+                    <div
+                      class="MuiTypography-root MuiTypography-caption css-1dtdxxd-MuiTypography-root"
+                    >
+                      9
+                    </div>
+                  </div>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-qcvrn6-MuiTypography-root"
+                >
+                  title
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiLoadingButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1ysg36x-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+      id=":r0:"
+      tabindex="0"
+      type="button"
+    >
+      Load more
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1cig8sb"
+  >
+    <div
+      class="css-678bp8-MuiStack-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 css-p7vaay-MuiPaper-root"
+      >
+        <div
+          class="css-1n12vvt-MuiStack-root"
+        >
+          <a
+            href="/"
+            id="logo-link"
+            style="text-decoration: none;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-10bvdjj-MuiTypography-root"
+              id="logo"
+              style="color: rgba(0, 0, 0, 0.87);"
+            >
+              my
+              <span
+                style="color: rgb(25, 118, 210);"
+              >
+                Movies
+              </span>
+            </p>
+          </a>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-14tur9a-MuiButtonBase-root-MuiButton-root"
+              href="/"
+              id="footer-menu-button"
+              tabindex="0"
+            >
+              home
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-14tur9a-MuiButtonBase-root-MuiButton-root"
+              href="/medias/movie"
+              id="footer-menu-button"
+              tabindex="0"
+            >
+              movies
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-14tur9a-MuiButtonBase-root-MuiButton-root"
+              href="/medias/tv"
+              id="footer-menu-button"
+              tabindex="0"
+            >
+              series
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-14tur9a-MuiButtonBase-root-MuiButton-root"
+              href="/search"
+              id="footer-menu-button"
+              tabindex="0"
+            >
+              search
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-14tur9a-MuiButtonBase-root-MuiButton-root"
+              href="/favorites"
+              id="footer-menu-button"
+              tabindex="0"
+            >
+              favorites
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

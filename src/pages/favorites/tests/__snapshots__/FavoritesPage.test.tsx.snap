@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoritesPage renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-ftnbiv"
+  >
+    <div
+      class="MuiBox-root css-rrfpwj"
+    >
+      <div
+        class="css-9kkbhs-MuiStack-root"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-h4 css-1313egv-MuiTypography-root"
+        >
+          No favorites
+        </h4>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          You can add medias to your favorites and you will find all of them here.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

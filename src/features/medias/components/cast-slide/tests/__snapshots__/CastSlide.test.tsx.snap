@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CastSlide renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1cig8sb"
+  >
+    <div
+      class="css-678bp8-MuiStack-root"
+    >
+      <div
+        class="MuiBox-root css-1ftjctz"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 container-header css-155qvnt-MuiTypography-root"
+        >
+          cast
+        </h5>
+      </div>
+      <div
+        class="MuiBox-root css-16yx2ug"
+      >
+        <div
+          class="swiper swiper-initialized swiper-horizontal swiper-pointer-events"
+          style="width: 100%;"
+        >
+          <div
+            class="swiper-wrapper"
+            style="cursor: grab; transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+          >
+            <div
+              class="swiper-slide"
+              id="cast-slide-credit-item"
+            >
+              <a
+                href="/actors/248292324"
+              >
+                <div
+                  class="MuiBox-root css-12apht"
+                >
+                  <div
+                    class="MuiBox-root css-tuyckx"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-69p2wv-MuiTypography-root"
+                    >
+                      name
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
