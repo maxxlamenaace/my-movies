@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# :movie_camera: myMovies
+
+Movies & series application
+
+<!-- Badges -->
+
+[![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
+
+[Documentation](https://github.com/maxxlamenaace/my-movies/) · [Report Bug](https://github.com/maxxlamenaace/my-movies/issues/)
+
+# :notebook_with_decorative_cover: Table of Contents
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- [About the Project](#star2-about-the-project)
+  - [Tech Stack](#space_invader-tech-stack)
+  - [Features](#dart-features)
+- [Getting Started](#clapper-getting-started)
+  - [Installation](#gear-installation)
+  - [Running Tests](#microscope-running-tests)
+- [Code repository](#post_office-code-repository)
+  - [Commit](#rocket-commit)
+- [Contact](#handshake-contact)
+
+## :star2: About the Project
+
+### :space_invader: Tech Stack
+
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://fr.reactjs.org/)
+- [Jest](https://jestjs.io/)
+
+### :dart: Features
+
+1. **Discover movies and series**
+
+   - Top rated and popular movies & series, either released or upcoming
+
+2. **See media and actor details**
+3. **Add medias to favorite**
+
+## :clapper: Getting Started
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+  npm run start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It will launch the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### :microscope: Running Tests
 
-### `npm test`
+To run tests, run the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  npm run test #run all the tests
+  npm run test -- src/<path-to-your-test> #run a test(s) matching path
+```
 
-### `npm run build`
+## :post_office: Code repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :rocket: Commit
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Some pre-commit hooks made with [Husky](https://github.com/typicode/husky) and [Commitizen](https://github.com/commitizen/cz-cli) are listening to commit events. To enable them you must run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+npm install -g commitizen
+npm run prepare
+```
 
-### `npm run eject`
+Then, when you are ready to commit, just run this command
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```shell
+git commit -m "your commit message"
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You will see that hooks are going to be triggered and will do the following
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Lint code and check its quality
+- Format your commit message using [Commitizen](https://github.com/commitizen/cz-cli). You just have to follow the different steps.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Then when everything is correct, push your changes to the repo
 
-## Learn More
+```shell
+git push origin <your-branch>
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Contact -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :handshake: Contact
+
+Maxime BENETEAU - max.beneteau@gmail.com
+Project link - [https://github.com/maxxlamenaace/my-movies/](https://github.com/maxxlamenaace/my-movies/)
