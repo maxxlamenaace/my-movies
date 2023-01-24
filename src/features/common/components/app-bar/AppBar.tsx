@@ -1,16 +1,26 @@
 import React, { useState } from 'react';
-import { AppBar as MUIAppBar, Toolbar, Stack, IconButton, Box, Button } from '@mui/material';
+import {
+  AppBar as MUIAppBar,
+  Toolbar,
+  Stack,
+  IconButton,
+  Box,
+  Button,
+  Typography,
+} from '@mui/material';
 
 import MenuIcon from '@mui/icons-material/Menu';
+import LogoutIcon from '@mui/icons-material/LogoutOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 
 import { Logo, ScrollableAppBar, Sidebar } from '@/features/common';
+import { useThemeModeStore, useAuthStore } from '@/stores';
 import { menuIcons } from '@/config/ui/menu-icons';
-import { useThemeModeStore } from '@/stores';
 
 const AppBar: React.FC = () => {
   const { isDark, switchMode } = useThemeModeStore();
+  const { username, logout, isAuthenticated } = useAuthStore();
 
   const [sidebarOpened, setSidebarOpened] = useState(false);
 
@@ -56,13 +66,29 @@ const AppBar: React.FC = () => {
                 </Button>
               ))}
 
-              <IconButton
-                onClick={switchMode}
-                sx={{ color: 'inherit', position: 'absolute', right: '30px' }}
-                id='top-bar-switch-theme'
-              >
+              <IconButton onClick={switchMode} sx={{ color: 'inherit' }} id='top-bar-switch-theme'>
                 {isDark() ? <DarkModeOutlinedIcon /> : <WbSunnyOutlinedIcon />}
               </IconButton>
+
+              {isAuthenticated() && (
+                <Stack
+                  direction='row'
+                  spacing={1}
+                  sx={{
+                    position: 'absolute',
+                    right: '30px',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography variant='button' fontWeight='700'>
+                    {username}
+                  </Typography>
+                  <IconButton onClick={logout} sx={{ color: 'inherit' }} id='top-bar-logout'>
+                    <LogoutIcon />
+                  </IconButton>
+                </Stack>
+              )}
             </Box>
           </Toolbar>
         </MUIAppBar>

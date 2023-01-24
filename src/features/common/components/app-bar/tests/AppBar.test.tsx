@@ -5,13 +5,21 @@ import { cleanup, render, act, fireEvent, waitFor } from '@testing-library/react
 
 import { AppBar } from '@/features/common';
 import { menuIcons } from '@/config/ui/menu-icons';
-import { useThemeModeStore } from '@/stores';
+import { useThemeModeStore, useAuthStore } from '@/stores';
 
 describe('AppBar', () => {
   const initialThemeStoreState = useThemeModeStore.getState();
+  const initialAuthStoreState = useAuthStore.getState();
 
   beforeEach(() => {
     useThemeModeStore.setState(initialThemeStoreState, true);
+    useAuthStore.setState(
+      {
+        ...initialAuthStoreState,
+        username: 'username',
+      },
+      true,
+    );
   });
 
   afterEach(() => {
@@ -60,6 +68,27 @@ describe('AppBar', () => {
       });
 
       await waitFor(() => expect(useThemeModeStore.getState().mode).toEqual('light'));
+    });
+  });
+
+  describe('when user click on logout', () => {
+    it('logout the user', async () => {
+      const { container } = render(<AppBar />, {
+        wrapper: BrowserRouter,
+      });
+
+      const logoutButton = container.querySelector('#top-bar-logout');
+
+      expect(useAuthStore.getState().username).toEqual('username');
+      expect(logoutButton).toBeDefined();
+
+      act(() => {
+        if (logoutButton) {
+          fireEvent.click(logoutButton);
+        }
+      });
+
+      await waitFor(() => expect(useAuthStore.getState().username).toBeUndefined());
     });
   });
 });

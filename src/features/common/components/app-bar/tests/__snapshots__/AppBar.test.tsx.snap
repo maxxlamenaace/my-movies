@@ -135,7 +135,7 @@ exports[`AppBar renders correctly 1`] = `
           />
         </a>
         <button
-          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1f28dxi-MuiButtonBase-root-MuiIconButton-root"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-w5a47t-MuiButtonBase-root-MuiIconButton-root"
           id="top-bar-switch-theme"
           tabindex="0"
           type="button"
@@ -155,6 +155,36 @@ exports[`AppBar renders correctly 1`] = `
             class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
           />
         </button>
+        <div
+          class="css-199mnr3-MuiStack-root"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-button css-chogol-MuiTypography-root"
+          >
+            username
+          </span>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-w5a47t-MuiButtonBase-root-MuiIconButton-root"
+            id="top-bar-logout"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="LogoutOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m17 8-1.41 1.41L17.17 11H9v2h8.17l-1.58 1.58L17 16l4-4-4-4zM5 5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v-2H5V5z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
       </div>
     </div>
   </header>

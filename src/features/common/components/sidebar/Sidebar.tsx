@@ -2,6 +2,7 @@ import React from 'react';
 
 import {
   Box,
+  Divider,
   Drawer,
   IconButton,
   List,
@@ -13,12 +14,13 @@ import {
   Typography,
 } from '@mui/material';
 
+import LogoutIcon from '@mui/icons-material/LogoutOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 
 import { Logo } from '@/features/common';
 import { menuIcons } from '@/config/ui/menu-icons';
-import { useThemeModeStore } from '@/stores';
+import { useThemeModeStore, useAuthStore } from '@/stores';
 
 type Props = {
   open?: boolean;
@@ -27,6 +29,12 @@ type Props = {
 
 const Sidebar: React.FC<Props> = ({ open = false, toggleSidebar }) => {
   const { isDark, switchMode } = useThemeModeStore();
+  const { username, logout, isAuthenticated } = useAuthStore();
+
+  const onLogout = () => {
+    logout();
+    toggleSidebar();
+  };
 
   return (
     <Drawer
@@ -91,9 +99,31 @@ const Sidebar: React.FC<Props> = ({ open = false, toggleSidebar }) => {
           px: '30px',
         }}
       >
-        <IconButton onClick={switchMode} sx={{ color: 'inherit' }} id='sidebar-switch-theme'>
-          {isDark() ? <DarkModeOutlinedIcon /> : <WbSunnyOutlinedIcon />}
-        </IconButton>
+        <Stack spacing={2}>
+          <IconButton onClick={switchMode} sx={{ color: 'inherit' }} id='sidebar-switch-theme'>
+            {isDark() ? <DarkModeOutlinedIcon /> : <WbSunnyOutlinedIcon />}
+          </IconButton>
+          {isAuthenticated() && (
+            <>
+              <Divider />
+              <Stack
+                direction='row'
+                spacing={1}
+                sx={{
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <Typography variant='button' fontWeight='700'>
+                  {username}
+                </Typography>
+                <IconButton onClick={onLogout} sx={{ color: 'inherit' }} id='sidebar-logout'>
+                  <LogoutIcon />
+                </IconButton>
+              </Stack>
+            </>
+          )}
+        </Stack>
       </Box>
     </Drawer>
   );

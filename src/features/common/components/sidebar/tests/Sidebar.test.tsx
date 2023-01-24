@@ -6,17 +6,27 @@ import userEvent from '@testing-library/user-event';
 
 import { Sidebar } from '@/features/common';
 import { menuIcons } from '@/config/ui/menu-icons';
-import { useThemeModeStore } from '@/stores';
+import { useAuthStore, useThemeModeStore } from '@/stores';
 
 describe('Sidebar', () => {
   const initialThemeStoreState = useThemeModeStore.getState();
+  const initialAuthStoreState = useAuthStore.getState();
+
   const toggleSidebarMock = jest.fn();
 
   beforeEach(() => {
     useThemeModeStore.setState(initialThemeStoreState, true);
+    useAuthStore.setState(
+      {
+        ...initialAuthStoreState,
+        username: 'username',
+      },
+      true,
+    );
   });
 
   afterEach(() => {
+    jest.resetAllMocks();
     cleanup();
   });
 
@@ -62,6 +72,30 @@ describe('Sidebar', () => {
       });
 
       await waitFor(() => expect(useThemeModeStore.getState().mode).toEqual('light'));
+    });
+  });
+
+  describe('when user clicks on logout', () => {
+    it('logout the user and calls the toggleSidebar function', async () => {
+      const { baseElement } = render(<Sidebar open={true} toggleSidebar={toggleSidebarMock} />, {
+        wrapper: BrowserRouter,
+      });
+
+      const logoutButton = baseElement.querySelector('#sidebar-logout');
+
+      expect(useAuthStore.getState().username).toEqual('username');
+      expect(logoutButton).toBeDefined();
+
+      act(() => {
+        if (logoutButton) {
+          fireEvent.click(logoutButton);
+        }
+      });
+
+      await waitFor(() => {
+        expect(useAuthStore.getState().username).toBeUndefined();
+        expect(toggleSidebarMock).toHaveBeenCalledTimes(1);
+      });
     });
   });
 
