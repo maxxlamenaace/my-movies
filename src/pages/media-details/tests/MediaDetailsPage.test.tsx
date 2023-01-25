@@ -30,6 +30,7 @@ describe('MediaDetailsPage', () => {
           backdrop: [],
           poster: [],
         },
+        reviews: [],
       },
     }));
   });

@@ -57,27 +57,28 @@ const MediaInfos: React.FC<Props> = ({
             >
               {media.title || media.name}
             </Typography>
-            <Stack direction='row'>
-              <Typography variant='h6' fontWeight='700'>
-                {media.release_date || media.first_air_date}
-              </Typography>
-            </Stack>
           </Stack>
 
           <Stack direction='row' spacing={1} alignItems='center'>
             <CircularRate value={media.vote_average} />
-            <Divider orientation='vertical' />
+            <Divider />
             {media.genres.map((genre, index) => (
-              <Chip key={index} label={genre.name} variant='filled' color='primary' />
+              <Chip key={index} label={genre.name} variant='outlined' color='primary' />
             ))}
           </Stack>
 
-          <Typography
-            variant='body1'
-            sx={{ ...globalStyles.paragraph(5, { xs: 'center', md: 'start' }) }}
-          >
-            {media.overview}
-          </Typography>
+          <Stack spacing={2}>
+            <Typography variant='h6' fontWeight='700'>
+              {media.tagline}
+            </Typography>
+
+            <Typography
+              variant='body1'
+              sx={{ ...globalStyles.paragraph(5, { xs: 'center', md: 'start' }) }}
+            >
+              {media.overview}
+            </Typography>
+          </Stack>
 
           <Stack direction='row' spacing={2} justifyContent='space-between'>
             <IconButton

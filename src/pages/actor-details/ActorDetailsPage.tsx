@@ -7,7 +7,7 @@ import { Toolbar } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
 
 import { useAppStore } from '@/stores';
-import { Container } from '@/features/common';
+import { Container, Wrapper } from '@/features/common';
 import { ActorDetailsParams } from '@/navigation/types';
 import { useActorDetails, ActorInfos } from '@/features/actors';
 import { MediasGrid } from '@/features/medias';
@@ -32,7 +32,7 @@ const ActorDetailsPage: React.FC = () => {
   }, [loading]);
 
   return (
-    <>
+    <Wrapper>
       <Toolbar />
       {actor && (
         <Box sx={{ color: 'primary.contrastText', ...globalStyles.container, paddingTop: '20px' }}>
@@ -54,7 +54,7 @@ const ActorDetailsPage: React.FC = () => {
           </Container>
         </Box>
       )}
-    </>
+    </Wrapper>
   );
 };
 

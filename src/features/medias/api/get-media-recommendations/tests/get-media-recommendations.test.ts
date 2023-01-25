@@ -4,7 +4,7 @@ import API from '@/api/client';
 
 import { getMediaRecommendations } from '@/features/medias';
 
-describe('getMediaImages', () => {
+describe('getMediaRecommendations', () => {
   const APIMock = jest.mocked(API);
 
   it('does a GET request', async () => {

@@ -1,6 +1,5 @@
-global.scrollTo = jest.fn();
-
 import React from 'react';
+
 import { cleanup, render, waitFor } from '@testing-library/react';
 
 import { Wrapper } from '@/features/common';

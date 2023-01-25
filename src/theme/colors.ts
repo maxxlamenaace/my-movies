@@ -19,11 +19,6 @@ export const DarkTheme = createTheme({
       paper: '#131313',
     },
   },
-  components: {
-    MuiButton: {
-      defaultProps: { disableElevation: true },
-    },
-  },
 });
 
 export const LightTheme = createTheme({
@@ -37,11 +32,6 @@ export const LightTheme = createTheme({
     },
     background: {
       default: colors.grey['100'],
-    },
-  },
-  components: {
-    MuiButton: {
-      defaultProps: { disableElevation: true },
     },
   },
 });

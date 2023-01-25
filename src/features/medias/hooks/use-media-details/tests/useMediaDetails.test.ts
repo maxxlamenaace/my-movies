@@ -4,6 +4,7 @@ jest.mock('@/features/medias', () => ({
   getMediaCredits: jest.fn().mockResolvedValueOnce([]),
   getMediaImages: jest.fn().mockResolvedValueOnce({ backdrop: [], poster: [] }),
   getMediaVideos: jest.fn().mockResolvedValueOnce([]),
+  getMediaRecommendations: jest.fn().mockResolvedValueOnce([]),
 }));
 
 import { renderHook, waitFor } from '@testing-library/react';
@@ -14,6 +15,7 @@ import {
   getMediaCredits,
   getMediaImages,
   getMediaVideos,
+  getMediaRecommendations,
 } from '@/features/medias';
 
 describe('useMediaDetails', () => {
@@ -21,6 +23,7 @@ describe('useMediaDetails', () => {
   const getMediaCreditsMock = jest.mocked(getMediaCredits, true);
   const getMediaImagesMock = jest.mocked(getMediaImages, true);
   const getMediaVideosMock = jest.mocked(getMediaVideos, true);
+  const getMediaRecommendationsMock = jest.mocked(getMediaRecommendations, true);
 
   describe('when first render', () => {
     it('fetches the media details', () => {
@@ -34,12 +37,15 @@ describe('useMediaDetails', () => {
           videos: [],
           images: { backdrop: [], poster: [] },
           credits: [],
+          recommendations: [],
+          reviews: [],
         });
 
         expect(getMediaDetailsMock).toHaveBeenCalledTimes(1);
         expect(getMediaCreditsMock).toHaveBeenCalledTimes(1);
         expect(getMediaImagesMock).toHaveBeenCalledTimes(1);
         expect(getMediaVideosMock).toHaveBeenCalledTimes(1);
+        expect(getMediaRecommendationsMock).toHaveBeenCalledTimes(1);
       });
     });
   });

@@ -6,6 +6,7 @@ import { LoadingButton } from '@mui/lab';
 
 import { MediasListParams } from '@/navigation/types';
 import { globalStyles } from '@/theme/styles';
+import { Wrapper } from '@/features/common';
 import { useAppStore } from '@/stores';
 
 import {
@@ -48,7 +49,7 @@ const MediasListPage: React.FC = () => {
   };
 
   return (
-    <>
+    <Wrapper>
       <MediasAutoSwiper mediaType={mediaType} medias={medias} genres={genres?.[mediaType]} />
 
       <Box sx={{ ...globalStyles.container }}>
@@ -95,7 +96,7 @@ const MediasListPage: React.FC = () => {
           Load more
         </LoadingButton>
       </Box>
-    </>
+    </Wrapper>
   );
 };
 
