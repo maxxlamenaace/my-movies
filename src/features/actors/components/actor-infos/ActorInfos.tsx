@@ -52,12 +52,7 @@ const ActorInfos: React.FC<Props> = ({ actor }) => {
             </Stack>
           </Stack>
 
-          <Typography
-            variant='body1'
-            sx={{ ...globalStyles.paragraph(5, { xs: 'center', md: 'start' }) }}
-          >
-            {actor.biography}
-          </Typography>
+          <Typography variant='body1'>{actor.biography}</Typography>
         </Stack>
       </Box>
     </Box>
