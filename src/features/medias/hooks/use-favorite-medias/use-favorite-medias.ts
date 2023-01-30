@@ -19,8 +19,6 @@ export const useFavoriteMedias = (favorites: FavoriteItem[]) => {
         }),
       );
 
-      console.log(results);
-
       setState({
         error: undefined,
         loading: false,

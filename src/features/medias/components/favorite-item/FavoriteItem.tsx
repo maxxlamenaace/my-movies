@@ -49,9 +49,6 @@ const FavoriteItem: React.FC<Props> = ({ media, mediaType, onFavoriteRemoved }) 
 
           <IconButton
             className='media-play-btn'
-            onClick={() => {
-              console.log('coucou');
-            }}
             sx={{
               display: { xs: 'none', md: 'flex' },
               opacity: 0,
