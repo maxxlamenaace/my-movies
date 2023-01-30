@@ -10,7 +10,7 @@ exports[`ActorsGrid renders correctly 1`] = `
     >
       <a
         class="actor-item"
-        href="/actors/1940547381"
+        href="/actors/1230166331"
       >
         <div
           class="MuiBox-root css-itb0du"

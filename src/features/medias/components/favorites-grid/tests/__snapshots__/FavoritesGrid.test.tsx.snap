@@ -13,7 +13,7 @@ exports[`FavoritesGrid renders correctly 1`] = `
       >
         <a
           class="favorite-item"
-          href="/medias/movie/1485624457"
+          href="/medias/movie/1856863324"
         >
           <div
             class="MuiBox-root css-10py5dl"

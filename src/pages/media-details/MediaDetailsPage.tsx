@@ -27,9 +27,7 @@ const MediaDetailsPage: React.FC = () => {
   const videoRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!loading) {
-      setLoading(false);
-    }
+    setLoading(loading);
   }, [loading]);
 
   return data ? (

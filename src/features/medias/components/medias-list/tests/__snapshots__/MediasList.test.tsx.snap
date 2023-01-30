@@ -18,7 +18,7 @@ exports[`MediasList renders correctly 1`] = `
           class="swiper-slide"
         >
           <a
-            href="/medias/movie/1365953548"
+            href="/medias/movie/943597113"
             id="media-item"
           >
             <div

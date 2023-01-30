@@ -30,6 +30,7 @@ module.exports = {
   },
   rules: {
     'no-duplicate-imports': 'error',
+    '@typescript-eslint/no-unused-vars': 'error',
   },
   overrides: [
     {

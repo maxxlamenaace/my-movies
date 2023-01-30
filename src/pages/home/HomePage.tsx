@@ -14,9 +14,7 @@ const HomePage: React.FC = () => {
   const { genres, ...useMediaGenreState } = useMediaGenres();
 
   useEffect(() => {
-    if (!loading && !useMediaGenreState.loading) {
-      setLoading(false);
-    }
+    setLoading(loading || useMediaGenreState.loading);
   }, [loading, useMediaGenreState.loading]);
 
   return data ? (

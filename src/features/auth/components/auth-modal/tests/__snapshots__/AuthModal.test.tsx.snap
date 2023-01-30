@@ -54,6 +54,11 @@ exports[`AuthModal renders correctly 1`] = `
             <div
               class="css-1p5q5e5-MuiStack-root"
             >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ndaqpv-MuiTypography-root"
+              >
+                Please enter your username 👇
+              </p>
               <div
                 class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
               >
@@ -85,15 +90,13 @@ exports[`AuthModal renders correctly 1`] = `
                 </div>
               </div>
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+                disabled=""
                 id="auth-modal-submit-button"
-                tabindex="0"
+                tabindex="-1"
                 type="submit"
               >
                 Submit
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
               </button>
             </div>
           </div>

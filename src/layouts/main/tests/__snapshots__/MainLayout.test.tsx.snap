@@ -3,7 +3,7 @@
 exports[`MainLayout renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1bglfwa-MuiPaper-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1imfhbp-MuiPaper-root"
   >
     <div
       class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
@@ -47,6 +47,7 @@ exports[`MainLayout renders correctly 1`] = `
   >
     <header
       class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1kdyup9-MuiPaper-root-MuiAppBar-root"
+      style="padding-right: 1024px;"
     >
       <div
         class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1dq00yu-MuiToolbar-root"
@@ -178,7 +179,7 @@ exports[`MainLayout renders correctly 1`] = `
             />
           </a>
           <button
-            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1f28dxi-MuiButtonBase-root-MuiIconButton-root"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-w5a47t-MuiButtonBase-root-MuiIconButton-root"
             id="top-bar-switch-theme"
             tabindex="0"
             type="button"

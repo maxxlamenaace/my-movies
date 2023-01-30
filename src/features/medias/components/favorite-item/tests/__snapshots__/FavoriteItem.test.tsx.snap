@@ -7,7 +7,7 @@ exports[`FavoriteItem renders correctly 1`] = `
   >
     <a
       class="favorite-item"
-      href="/medias/movie/2020837323"
+      href="/medias/movie/1073454359"
     >
       <div
         class="MuiBox-root css-10py5dl"

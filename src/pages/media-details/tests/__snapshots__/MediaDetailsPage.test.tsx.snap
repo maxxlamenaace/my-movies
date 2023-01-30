@@ -32,13 +32,6 @@ exports[`MediaDetailsPage renders correctly 1`] = `
             >
               title
             </h4>
-            <div
-              class="css-m69qwo-MuiStack-root"
-            >
-              <h6
-                class="MuiTypography-root MuiTypography-h6 css-tjvwag-MuiTypography-root"
-              />
-            </div>
           </div>
           <div
             class="css-1q36rmd-MuiStack-root"
@@ -78,10 +71,10 @@ exports[`MediaDetailsPage renders correctly 1`] = `
               </div>
             </div>
             <hr
-              class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical css-ftc7wc-MuiDivider-root"
+              class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
             />
             <div
-              class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-1sz23ua-MuiChip-root"
+              class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-outlinedPrimary css-196205-MuiChip-root"
             >
               <span
                 class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
@@ -90,11 +83,20 @@ exports[`MediaDetailsPage renders correctly 1`] = `
               </span>
             </div>
           </div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-u2bbna-MuiTypography-root"
+          <div
+            class="css-1p5q5e5-MuiStack-root"
           >
-            overview
-          </p>
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-tjvwag-MuiTypography-root"
+            >
+              tagline
+            </h6>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-u2bbna-MuiTypography-root"
+            >
+              overview
+            </p>
+          </div>
           <div
             class="css-q9mojd-MuiStack-root"
           >

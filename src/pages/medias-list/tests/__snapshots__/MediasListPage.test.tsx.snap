@@ -86,7 +86,7 @@ exports[`MediasListPage renders correctly 1`] = `
                 </p>
                 <a
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
-                  href="/medias/undefined/1811409637"
+                  href="/medias/undefined/262569662"
                   tabindex="0"
                 >
                   <span
@@ -185,7 +185,7 @@ exports[`MediasListPage renders correctly 1`] = `
                 </p>
                 <a
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
-                  href="/medias/undefined/1811409637"
+                  href="/medias/undefined/262569662"
                   tabindex="0"
                 >
                   <span
@@ -284,7 +284,7 @@ exports[`MediasListPage renders correctly 1`] = `
                 </p>
                 <a
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1t6l1gc-MuiButtonBase-root-MuiButton-root"
-                  href="/medias/undefined/1811409637"
+                  href="/medias/undefined/262569662"
                   tabindex="0"
                 >
                   <span
@@ -357,7 +357,7 @@ exports[`MediasListPage renders correctly 1`] = `
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 media-grid-item css-1vm8tgf-MuiGrid-root"
       >
         <a
-          href="/medias/undefined/1811409637"
+          href="/medias/undefined/262569662"
           id="media-item"
         >
           <div

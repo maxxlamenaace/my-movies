@@ -7,7 +7,7 @@ describe('App store', () => {
     it('initialize default state', () => {
       const { result } = renderHook(() => useAppStore());
 
-      expect(result.current.loading).toBeTruthy();
+      expect(result.current.loading).toBeFalsy();
     });
   });
 
@@ -16,10 +16,10 @@ describe('App store', () => {
       const { result } = renderHook(() => useAppStore());
 
       act(() => {
-        result.current.setLoading(false);
+        result.current.setLoading(true);
       });
 
-      expect(result.current.loading).toBeFalsy();
+      expect(result.current.loading).toBeTruthy();
     });
   });
 });

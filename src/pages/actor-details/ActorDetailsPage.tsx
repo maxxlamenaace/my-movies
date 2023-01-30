@@ -26,9 +26,7 @@ const ActorDetailsPage: React.FC = () => {
   };
 
   useEffect(() => {
-    if (!loading) {
-      setLoading(false);
-    }
+    setLoading(loading);
   }, [loading]);
 
   return (

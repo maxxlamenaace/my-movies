@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { LoadingButton } from '@mui/lab';
 import { Box, Toolbar, Typography } from '@mui/material';
@@ -8,21 +8,13 @@ import { MediasGrid, Media } from '@/features/medias';
 import { Actor, ActorsGrid } from '@/features/actors';
 import { globalStyles } from '@/theme/styles';
 import { Wrapper } from '@/features/common';
-import { useAppStore } from '@/stores';
 
 const SearchPage: React.FC = () => {
   const [query, setQuery] = useState('');
   const [searchType, setSearchType] = useState<SearchType>('movie');
   const [currentPage, setCurrentPage] = useState(1);
 
-  const { setLoading } = useAppStore();
   const { loading, results } = useSearch({ query, type: searchType, currentPage });
-
-  useEffect(() => {
-    if (!loading) {
-      setLoading(false);
-    }
-  }, [loading]);
 
   const onLoadMore = () => {
     setCurrentPage(currentPage + 1);

@@ -14,9 +14,7 @@ const FavoritesPage: React.FC = () => {
   const { loading, favoritesDetails } = useFavoriteMedias(favorites);
 
   useEffect(() => {
-    if (!loading) {
-      setLoading(false);
-    }
+    setLoading(loading);
   }, [loading]);
 
   return (

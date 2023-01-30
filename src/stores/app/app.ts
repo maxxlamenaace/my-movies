@@ -1,4 +1,5 @@
 import create from 'zustand';
+import { persist } from 'zustand/middleware';
 
 type AppState = {
   loading: boolean;
@@ -8,14 +9,15 @@ type AppActions = {
   setLoading: (loading: boolean) => void;
 };
 
-const initialState: AppState = {
-  loading: true,
-};
-
-export const useAppStore = create<AppState & AppActions>((set) => ({
-  ...initialState,
-  setLoading: (loading: boolean) =>
-    set(() => ({
-      loading,
-    })),
-}));
+export const useAppStore = create(
+  persist<AppState & AppActions>(
+    (set) => ({
+      loading: false,
+      setLoading: (loading: boolean) =>
+        set(() => ({
+          loading,
+        })),
+    }),
+    { name: 'auth-storage' },
+  ),
+);

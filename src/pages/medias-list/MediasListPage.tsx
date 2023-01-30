@@ -35,9 +35,7 @@ const MediasListPage: React.FC = () => {
   const categories: MediaCategory[] = ['top_rated', 'popular'];
 
   useEffect(() => {
-    if (!loading) {
-      setLoading(false);
-    }
+    setLoading(loading);
   }, [loading]);
 
   const onChangeCategory = (category: MediaCategory) => {
