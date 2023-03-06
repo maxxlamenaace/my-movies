@@ -5,7 +5,6 @@ export default {
     '^.+\\.(ts|tsx|js)$': 'ts-jest',
   },
   transformIgnorePatterns: ['/node_modules/(?!swiper|ssr-window|dom7)'],
-  // clearMocks: true,
   moduleNameMapper: {
     '^@/(.+)': '<rootDir>/src/$1',
   },
